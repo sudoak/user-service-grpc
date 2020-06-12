@@ -1,0 +1,26 @@
+{
+  "name": "user-service-grpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudoak/user-service-grpc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudoak/user-service-grpc/issues"
+  },
+  "homepage": "https://github.com/sudoak/user-service-grpc#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.4",
+    "express": "^4.17.1",
+    "grpc": "^1.24.3",
+    "uuid": "^8.1.0"
+  }
+}
