@@ -1,3 +1,10 @@
+require("dotenv").config();
+
+
+const { connection } = require("./database/util");
+
+connection(); 
+
 const PROTO_PATH = "./customers.proto";
 
 var grpc = require("grpc");
